@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  /* background-color: rgb(196, 239, 239); */
+  background: rgba(0, 0, 0, 0.8) image-set("https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN0dWR5fGVufDB8fDB8fHww&w=1000&q=80");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 20px 10px;
+
+}
+
+h2 {
+  color: white;
+  text-shadow: 0px 0px 20px black;
+
+}
+
+
+table {
+  padding: 10px;
+}
+
+td {
+  padding: 0px 10px;
+  color: white;
+}
+
+input {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 4px;
+  color: black;
+
+}
+
+select {
+  width: 100%;
+  padding: 4px;
+}
